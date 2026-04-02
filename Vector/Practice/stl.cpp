@@ -58,19 +58,5 @@ using namespace std;
         int main(){
             vector<int>v = {20,30,40,60,80};
             printVector(v);
-        
-   
-   
-
-        return 0;
-        
-
-
-
-
-
-    
-
-
 
 }
