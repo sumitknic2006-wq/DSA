@@ -32,22 +32,22 @@ int main(){
 
     // How to find maximum and minimum elements from the vector. USE STL here.
         // // maximum
-        // int max_val = *max_element(v.begin(),v.end()); //*->max_element ka address batata hai
-        // cout<<max_val<<endl;
-        // // minimum
-        // int min_val = *min_element(v.begin(),v.end());
-        // cout<<min_val<<endl;
+    // int max_val = *max_element(v.begin(),v.end()); //*->max_element ka address batata hai
+    // cout<<max_val<<endl;
+    // // minimum
+    // int min_val = *min_element(v.begin(),v.end());
+    // cout<<min_val<<endl;
 
     // Find Lower bound and Upper Bound of a given element in a sorted vector. USE STL here to find them.
-        // vector<int> v = {1, 2, 2, 2, 3, 4, 5};
+    // vector<int> v = {1, 2, 2, 2, 3, 4, 5};
 
-        // int x = 2;
+    // int x = 2;
 
-        // auto lb = lower_bound(v.begin(), v.end(), x);
-        // auto ub = upper_bound(v.begin(), v.end(), x);
+    // auto lb = lower_bound(v.begin(), v.end(), x);
+    // auto ub = upper_bound(v.begin(), v.end(), x);
 
-        // cout << "Lower Bound index = " << lb - v.begin() << endl;
-        // cout << "Upper Bound index = " << ub - v.begin() << endl;
+    // cout << "Lower Bound index = " << lb - v.begin() << endl;
+    // cout << "Upper Bound index = " << ub - v.begin() << endl;
 }
 
    
