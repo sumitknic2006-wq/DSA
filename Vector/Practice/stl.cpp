@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-// int main(){
+int main(){
     // 1.Prove that the average time Complexity of Push_back operation in Vector is O(1) time.
     // vector<int>v;
     // v.push_back(34);
@@ -23,12 +23,12 @@ using namespace std;
     //     count++;
     //     }
     // }
-        // cout<<count;
-        // or
-        // int target;
-        // cin>>target;
-        // int occ = count(v.begin(),v.end(),target); //target->us array me ye element kitna hai.
-        // cout<<occ<<endl;
+    //     cout<<count;
+    //     or
+    //     int target;
+    //     cin>>target;
+    //     int occ = count(v.begin(),v.end(),target); //target->us array me ye element kitna hai.
+    //     cout<<occ<<endl;
 
     // How to find maximum and minimum elements from the vector. USE STL here.
         // // maximum
@@ -48,15 +48,6 @@ using namespace std;
 
         // cout << "Lower Bound index = " << lb - v.begin() << endl;
         // cout << "Upper Bound index = " << ub - v.begin() << endl;
+}
 
-    // How to pass a vector to a function. Write a small code for it.
-    void printVector(vector<int> &v){
-        for(int i=0;i<v.size();i++){
-            cout<<v[i]<<" ";
-        }
-    }
-        int main(){
-            vector<int>v = {20,30,40,60,80};
-            printVector(v);
-
-        }
+   
