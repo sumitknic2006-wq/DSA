@@ -20,7 +20,7 @@ int main(){
     while(start<=end)
     {
         mid = start + (end-start)/2;
-        long long pages=0, count=0;
+        long long pages=0, count=1;
         for(int i=0;i<n;i++){
             pages += arr[i];
             if(pages>mid){
