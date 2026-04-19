@@ -1,8 +1,8 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-int threeSum(vector<int>arr){
-    int n = arr.size(), x; 
+int threeSum(vector<int>arr, int x){
+    int n = arr.size(); 
     // for(int i = 0;i<n-2;i++){
     //     for(int j = i+1;j<n-1;j++){
     //         for(int k = j+1;k<n;k++){
@@ -71,7 +71,7 @@ cout<<"Enter of the element of array:";
 for(int i=0;i<n;i++){
     cin>>v[i];
 }
-cout<<threeSum(v)<<endl;
+cout<<threeSum(v,x)<<endl;
 }
 
 
