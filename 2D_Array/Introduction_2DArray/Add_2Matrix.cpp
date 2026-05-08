@@ -39,7 +39,8 @@ void printrowmax(int arr[][4], int row, int col)
             sec+=matrix[i][j];
             i++,j--;
         }
-        cout<<first<<" "<<sec<<" "<<endl<<endl;
+        int sum = first+sec;
+        cout<<first<<" "<<sec<<" "<<sum<<endl<<endl;
 
     }
 
