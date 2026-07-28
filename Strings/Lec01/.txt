@@ -1,0 +1,2 @@
+# Escape character(\):- iska matlab iske bad jo bhi likha usko exactly print kar deta hai. 
+--> \ ka print karta hai -> "\\" .
