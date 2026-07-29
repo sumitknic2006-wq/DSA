@@ -7,7 +7,7 @@ int main()
 
     string s2 = "naman";
 
-    int start = 0 , end = s2.size()-1;
+    int start = 0 , end = s2.size()-1;  
 
     while(start<end)
     {
